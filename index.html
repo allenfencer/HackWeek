@@ -17,19 +17,23 @@
          
           </a>
           <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-white">Home</a>
-            <a class="mr-5 hover:text-white">About</a>
-            <a class="mr-5 hover:text-white">Timeline</a>
-            <a class="mr-5 hover:text-white">Tracks</a>
-            <a class="mr-5 hover:text-white">Prizes</a>
-            <a class="mr-5 hover:text-white">Sponsors</a>
-
+            <a class="mr-5 hover:text-white" href="#home">Home</a>
+            <a class="mr-5 hover:text-white" href="#about">About</a>
+            <a class="mr-5 hover:text-white" href="#timeline">Timeline</a>
+            <a class="mr-5 hover:text-white" href="#tracks">Tracks</a>
+            <a class="mr-5 hover:text-white" href="#prizes">Prizes</a>
+            <a class="mr-5 hover:text-white" href="#sponsors">Sponsors</a>
           </nav>
+          <a href="https://iedcmbcet.com/hackweek">
+          <button class="inline-flex items-center bg-darkblue-900 border-0 py-2 px-2 focus:outline-none hover:bg-gray-600 rounded text-base mt-4 md:mt-0">Register
+          </button>
+        </a>
         </div>
       </header>
 
       <!-- LANDING PAGE -->
-      <section class="text-gray-600 body-font">
+      <section class="text-gray-600 body-font" id="home">
+        <div style="background-image: url('images/bg.png');">
         <div class="container mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <img src="images/title.png">
@@ -42,12 +46,13 @@
       <img class="object-cover object-center rounded" alt="hero" src="images/landing.png">
     </div>
   </div>
+</div>
 </section>
 
 
 
       <!-- ABOUT PAGE -->
-      <section class="text-gray-400 bg-gray-900 body-font">
+      <section class="text-gray-400 bg-gray-900 body-font" id="about">
         <div class="container px-5 py-24 mx-auto">
           <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
             <div class="flex flex-col text-center w-full mb-20">
@@ -63,7 +68,7 @@
 
 
       <!-- TIMELINE -->
-      <section class="text-gray-600 body-font">
+      <section class="text-gray-600 body-font" id="timeline">
         <br><br><br>
         <div class="text-center mb-20">
           <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Timeline</h1>
@@ -152,7 +157,7 @@
 
 
 <!-- TRACKS -->
-<section class="text-gray-400 bg-gray-900 body-font">
+<section class="text-gray-400 bg-gray-900 body-font" id="tracks">
   <div class="container px-20 py-24 mx-auto flex flex-wrap">
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium title-font text-white">Tracks</h1>
@@ -194,7 +199,7 @@
         <div class="flex rounded-lg h-full bg-gray-800 bg-opacity-60 p-8 flex-col">
           <div class="flex items-center mb-3">
             <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <img src="images/icon.png">
                 <circle cx="6" cy="6" r="3"></circle>
                 <circle cx="6" cy="18" r="3"></circle>
                 <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
@@ -214,7 +219,7 @@
 
 
 <!-- PRIZES -->
-<section class="text-gray-600 body-font">
+<section class="text-gray-600 body-font" id="prizes">
   <div class="container px-20 py-24 mx-auto">
     <div class="text-center mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Prizes</h1>
@@ -225,9 +230,7 @@
     <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
       <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-          </svg>
+          <img src="images/2st.png">
         </div>
         <div class="flex-grow">
           <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Second Prize</h2>
@@ -241,11 +244,7 @@
       </div>
       <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-            <circle cx="6" cy="6" r="3"></circle>
-            <circle cx="6" cy="18" r="3"></circle>
-            <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-          </svg>
+          <img src="images/1st.png">
         </div>
         <div class="flex-grow">
           <h2 class="text-gray-900 text-lg title-font font-medium mb-3">First Prize</h2>
@@ -259,10 +258,7 @@
       </div>
       <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-            <circle cx="12" cy="7" r="4"></circle>
-          </svg>
+          <img src="images/3st.png">
         </div>
         <div class="flex-grow">
           <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Third Prize</h2>
@@ -279,7 +275,7 @@
 </section>
 
 <!-- LOGOS AND SPONSORS -->
-<section class="text-gray-400 bg-gray-900 body-font">
+<section class="text-gray-400 bg-gray-900 body-font" id="sponsors">
   <div class="container px-12 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Partners & Sponsors</h1>
